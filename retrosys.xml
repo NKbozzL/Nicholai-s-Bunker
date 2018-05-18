@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<retrosystems>
+	
+	<system>
+		<model>Atari 2600</model>
+		<make>Atari</make>
+		<date>1977</date>
+		<country>USA</country>
+	</system>
+	
+	<system>
+		<model>NES</model>
+		<make>Nintendo</make>
+		<date>1985</date>
+		<country>Japan</country>
+	</system>
+	
+	<system>
+		<model>Master System</model>
+		<make>Sega</make>
+		<date>1985</date>
+		<country>Japan</country>
+	</system>
+	
+	<system>
+		<model>Atari 7800</model>
+		<make>Atari</make>
+		<date>1986</date>
+		<country>USA</country>
+	</system>
+	
+	<system>
+		<model>TurboGrafx-16</model>
+		<make>NEC</make>
+		<date>1987</date>
+		<country>Japan</country>
+	</system>
+	
+	<system>
+		<model>Genesis</model>
+		<make>Sega</make>
+		<date>1989</date>
+		<country>Japan</country>
+	</system>
+	
+	<system>
+		<model>Super NES</model>
+		<make>Nintendo</make>
+		<date>1991</date>
+		<country>Japan</country>
+	</system>
+	
+	<system>
+		<model>Saturn</model>
+		<make>Sega</make>
+		<date>1995</date>
+		<country>Japan</country>
+	</system>
+	
+	<system>
+		<model>Playstation</model>
+		<make>Sony</make>
+		<date>1995</date>
+		<country>Japan</country>
+	</system>
+	
+	<system>
+		<model>Nintendo 64</model>
+		<make>Nintendo</make>
+		<date>1996</date>
+		<country>Japan</country>
+	</system>
+	
+</retrosystems>

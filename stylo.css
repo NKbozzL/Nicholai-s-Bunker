@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+nav li {display: inline; list-style: none; margin: 5; padding: 5; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; border: solid 1px gray;}
+nav ul {text-align: center; margin: 0; padding-top: 3px; padding-bottom: 3px;}
+nav a:link {color: lightblue;}
+nav a:visited {color: darkslategray;}
+nav a:hover {color: white;}
+nav a:active {color: lightslategray;}
+nav{background: #000000;}
+nav p {color: white; text-align: left; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";}
+
+#outsiders a:link {color: darkblue;}
+#outsiders a:visited {color: darkslategray;}
+#outsiders a:hover {color: white;}
+#outsiders a:active {color: lightslategray;}
+#outsiders{text-align: center; list-style-type: none;}
+
+#explain a:link {color: darkblue;}
+#explain a:visited {color: darkslategray;}
+#explain a:hover {color: white;}
+#explain a:active {color: lightslategray;}
+#explain{text-align: center;}
+
+#css:link{color: darkblue;}
+#css:visited {color: darkslategrey;}
+#css:hover {color: white;}
+#css:active {color: lightslategray;}
+
+#consoles, #systems{text-align: center; width: 250px;border-collapse: collapse; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+#consoles, #systems{border: 3px solid black;}
+#systems{border: none;column-gap: 10px}
+th{text-align: center; color: white; background-color: darkslategray;}
+tr{background-color: lightgray;}
+tr.evenrow{background-color: darkgray;}
+
+body {background-color: #69a676; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+h1, h2, h3, h4, h5, h6 {text-align: center; font-family: 'Allerta Stencil', sans-serif;}
+
+img {display: block;margin: auto;border: 5px solid darkgreen;}
+#consoles, #systems {display: block;margin: auto;}
+form {display: block;margin: center;text-align: center;}
+p, #seexml{font-size: 16px;text-align: center;color: black;}
+ul.content {list-style-image: url('star.gif');list-style-position:inside;}
+ul.nobits {list-style: none}
+.container {border: 5px solid black;background-color: olivedrab;}
+
+#changeMsg,#goToUni,#genre, #suggest, input[type=submit], input[type=reset], #fadePic {width: 100%;background-color: black;color: white;padding: 14px 20px;margin: 8px 0;border: none;cursor: pointer; border-radius: 5px;}
+input[type=text],input[type=email],input[type=tel],input[type=textarea],input[type=datetime-local] {width: 100%; border-radius: 5px;}
+#yomessage, #what{color:white;background-color:black;}
+#what{text-align: center;}

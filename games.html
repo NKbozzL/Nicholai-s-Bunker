@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Games</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="stylo.css">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jayqwer.js"></script>
+</head>
+
+<body>
+	<nav> 
+		<div class="container-fluid">
+		<ul id="navlist">
+	  		<li><a href="home.html" id="bar1">Home</a></li>
+	  		<li><a href="blog.html" id="bar2">Blog</a></li>
+      		<li><a href="games.html" id="bar3">Games</a></li>
+      		<li><a href="contact.html" id="bar4">Contact</a></li>
+      		<li><a href="legal.html" id="bar5">Legal</a></li>
+      		<li><a href="hardware.html" id="bar6">Hardware</a></li>
+    	</ul>
+		</div>
+ 	</nav>
+ 	<nav> 
+		<div class="container-fluid">
+			<p id="uName"></p>
+			<button id="changeUName">Change Username</button>
+		</div>
+ 	</nav>
+ 	<div class="container-fluid">
+	<h1>Games</h1>
+	</div>
+	<div class="container">
+		<div class="col-xs-6">
+			<h2>Systems</h2>
+			<table id="consoles">
+				<tr>
+					<th>System</th>
+					<th>Manufacturer</th>
+					<th>Year Released</th>
+				</tr>
+				<tr class="evenrow">
+					<td>Playstation</td>
+					<td>Sony</td>
+					<td>1995</td>
+				</tr>
+				<tr>
+					<td>Playstation 2</td>
+					<td>Sony</td>
+					<td>2000</td>
+				</tr>
+				<tr class="evenrow">
+					<td>Playstation 3</td>
+					<td>Sony</td>
+					<td>2006</td>
+				</tr>
+				<tr>
+					<td>Playstation 4</td>
+					<td>Sony</td>
+					<td>2013</td>
+				</tr>
+				<tr class="evenrow">
+					<td>Xbox</td>
+					<td>Microsoft</td>
+					<td>2001</td>
+				</tr>
+				<tr>
+					<td>Xbox 360</td>
+					<td>Microsoft</td>
+					<td>2005</td>
+				</tr>
+				<tr class="evenrow">
+					<td>Xbox One</td>
+					<td>Microsoft</td>
+					<td>2013</td>
+				</tr>
+				<tr>
+					<td>Gamecube</td>
+					<td>Nintendo</td>
+					<td>2001</td>
+				</tr>
+				<tr class="evenrow">
+					<td>Wii</td>
+					<td>Nintendo</td>
+					<td>2006</td>
+				</tr>
+				<tr>
+					<td>Wii U</td>
+					<td>Nintendo</td>
+					<td>2012</td>
+				</tr>
+				<tr class="evenrow">
+					<td>Switch</td>
+					<td>Nintendo</td>
+					<td>2017</td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-xs-6">
+			<img id="controller" src="controller0.jpg" alt="Controller" height="300" width="300">
+			<button id="fadePic">Click to fade in and out</button>
+		</div>
+	</div>
+	<div class="container">
+		<h1>The Gaming Underground</h1>
+		<p>Y'see folks, there is a lot going on in the world of gaming outside of the scope of the current AAA gaming scene and that has been the case for a long time, Indie gaming is big now, but this was going on for the longest time in the past. Doujin software was a big thing in gaming shops in Japan during the 1980's and 90's. The custom coding scene was a thing during the 1980's reign of the ZX Spectrum in Britain. Doom and Duke Nukem also arose from early developers pushing shareware and following their passions with only small publishers to back them up to go on and become the big dogs of gaming in the 1990's. However the gaming underground would mostly remain among dedicated programmers as distribution and development of games became more expensive over the years. With digital distribution however, we'd see an explosion of indie gaming and small-time developers as well as the re-emergence of old devs pushed under the surface thanks to the ebb and flow of the industry. Even many cult classic console games from the olden days find new exposure online, and as such we continue this tradition talking about the current gaming underground.</p>
+	</div>
+	<div class="container">
+		<h1>No Idea What To Play?</h1>
+		<h3>Pick A Genre for a Recommendation</h3>
+			<select id="genre">
+  				<option value="action">Action</option>
+  				<option value="shoot">Shooter</option>
+  				<option value="rpg">RPG</option>
+  				<option value="strat">Strategy</option>
+  				<option value="retro">Retro</option>
+			</select>
+				<button id="suggest">Suggest Something!</button>
+	</div>
+	<div class="container">
+		<h3>We Suggest:</h3>
+		<p id="suggestion"></p>
+	</div>
+	<h3>Old Systems:</h3>
+	<p id="oldsys"></p>
+ 	<p id="lastmod"></p>
+	<script src="js/bootstrap.js"></script>
+	<script src="features.js"></script>
+	<script src="picchanger.js"></script>
+	<script src="gamepicker.js"></script>
+</body>
+</html>

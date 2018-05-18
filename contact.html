@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="stylo.css">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+<link href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+<script src="jayqwer.js"></script>
+</head>
+
+<body>
+	<nav> 
+		<div class="container-fluid">
+		<ul id="navlist">
+	  		<li><a href="home.html" id="bar1">Home</a></li>
+	  		<li><a href="blog.html" id="bar2">Blog</a></li>
+      		<li><a href="games.html" id="bar3">Games</a></li>
+      		<li><a href="contact.html" id="bar4">Contact</a></li>
+      		<li><a href="legal.html" id="bar5">Legal</a></li>
+      		<li><a href="hardware.html" id="bar6">Hardware</a></li>
+    	</ul>
+		</div>
+ 	</nav>
+ 	<nav> 
+		<div class="container-fluid">
+			<p id="uName"></p>
+			<button id="changeUName">Change Username</button>
+		</div>
+ 	</nav>
+ 	<div class="container-fluid">
+ 		<h1>Contact Us</h1>
+		<p>If you have any topics, information, criticisms, or ideas to send to the bunker, Feel free to send us a message</p>
+	</div>
+	
+	<div class="container">
+		<div class="col-xs-8 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-2">
+		<fieldset>
+			<legend id="what">What is this about?</legend>
+			<form action="mailto:nboesel@gmu.edu" method="get" id="thisForm">
+				<input type="radio" name="topic" id="games" value="games">
+				<label for="games">Games</label>
+				<input type="radio" name="topic" id="music" value="music">
+				<label for="music">Music</label>
+				<input type="radio" name="topic" id="filmtv" value="filmtv">
+				<label for="filmtv">Film/TV</label>
+				<input type="radio" name="topic" id="feedback" value="feedback">
+				<label for="feedback">Feedback</label>
+				<input type="radio" name="topic" id="ideas" value="ideas">
+				<label for="ideas">Ideas</label>
+				<input type="radio" name="topic" id="other" value="other">
+				<label for="other">Other</label>
+				<br>
+				<label>Name:<input type="text" id="name" name="name" required></label>
+				<br>
+				<label>Your Email:<input type="email" name="email" id="email" required></label>
+				<br>
+				<label>Your Phone:<input type="tel" id="phone">(optional)</label>
+				<br>
+					<div class="ui-widget">
+						<label>When are you sending this?<input type="text" id="time">(optional)</label>
+					</div>
+				<br>
+				<p id="yomessage"><strong>Your Message:</strong></p>
+				<textarea rows="7" cols="50" id="message" required name="yomessage"></textarea>
+				<br>
+				<label>
+					"How would you rate the site?"
+					<select id="rating">
+					<option value="5">5</option>
+					<option value="4">4</option>
+					<option value="3">3</option>
+					<option value="2">2</option>
+					<option value="1">1</option>
+					<option value="0">0</option>
+					</select>
+				</label><br>
+				<label>Subscribe for Updates<input type="checkbox" name="vehicle1" value="Bike"></label><br>
+				<input class="submit" type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</form>
+			</fieldset>
+		</div>
+	</div>
+	<p id="lastmod"></p>
+	<script src="js/bootstrap.js"></script>
+	<script src="features.js"></script>
+</body>
+</html>
